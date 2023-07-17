@@ -1,11 +1,11 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: LegacyComputing
 FullName: LegacyComputing
 FamilyName: LegacyComputing
 Weight: Regular
-Copyright: Copyright (c) 2020
+Copyright: Copyright (c) 2020,2023
 UComments: "2020-4-11: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 001.100
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1586639695
-ModificationTime: 1586738452
+ModificationTime: 1689595814
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 129694 38 14
+WinInfo: 129580 38 30
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1176,28 +1176,28 @@ Encoding: 129828 129828 52
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -200 332<0 299> 132 335<301 600> 467 333<0 299>
-VStem: 0 300<-200 131 468 800> 300 300<133 466>
+HStem: -200 332<301 600> 132 335<0 299> 467 333<301 600>
+VStem: 0 300<133 466> 300 300<-200 131 468 800>
 LayerCount: 2
 Fore
 SplineSet
-0 -200 m 1x90
- 0 132 l 1x90
- 299 132 l 1
- 300 133 l 1
- 300 466 l 5x88
- 299 467 l 5
- 0 467 l 5
- 0 800 l 1
- 300 800 l 1
- 300 468 l 5xb0
- 301 467 l 5
- 600 467 l 5
- 600 132 l 1
- 301 132 l 1x48
- 300 131 l 1
+600 -200 m 1xa8
  300 -200 l 1
- 0 -200 l 1x90
+ 300 131 l 1xa8
+ 299 132 l 1
+ 0 132 l 1
+ 0 467 l 1
+ 299 467 l 1x50
+ 300 468 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 467 l 1x28
+ 301 467 l 1
+ 300 466 l 1
+ 300 133 l 1x30
+ 301 132 l 1
+ 600 132 l 1
+ 600 -200 l 1xa8
 EndSplineSet
 Validated: 1
 EndChar
