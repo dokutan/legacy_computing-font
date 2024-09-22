@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1586639695
-ModificationTime: 1689595814
+ModificationTime: 1727003588
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 129580 38 30
+WinInfo: 129580 38 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3902,35 +3902,30 @@ StartChar: u1FBB9
 Encoding: 129977 129977 176
 Width: 600
 VWidth: 0
-Flags: W
-HStem: 0 70<120 600> 480 70<120 450 520 600> 650 70<160 410>
-VStem: 50 70<70 480 550 610> 450 70<550 610>
+Flags: WO
+HStem: 0 70<120 600> 480 70<520 600> 650 70<160 410>
+VStem: 50 70<70 610> 450 70<550 610>
 LayerCount: 2
 Fore
 SplineSet
-600 480 m 5
- 452 480 l 5
- 120 480 l 5
- 120 70 l 5
- 600 70 l 29
- 600 0 l 29
+450 480 m 1
+ 450 610 l 1
+ 410 650 l 1
+ 160 650 l 1
+ 120 610 l 1
+ 120 70 l 1
+ 600 70 l 25
+ 600 0 l 25
  50 0 l 25
  50 660 l 17
  110 720 l 1
  460 720 l 1
- 520 660 l 5
- 520 550 l 5
- 600 550 l 5
- 600 480 l 5
-120 550 m 5
- 450 550 l 5
- 450 610 l 5
- 410 650 l 5
- 160 650 l 5
- 120 610 l 5
- 120 550 l 5
+ 520 660 l 1
+ 520 550 l 1
+ 600 550 l 1
+ 600 480 l 1
+ 450 480 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: u1FBBD
